@@ -1,0 +1,104 @@
+/* Reset básico */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #141414;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Seção Hero */
+.hero {
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: #e50914;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Conteúdo */
+.content {
+    padding: 20px;
+}
+
+.content-grid {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.content-item {
+    flex: 0 0 auto;
+    width: 200px;
+}
+
+.content-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Rodapé */
+footer {
+    background-color: #141414;
+    padding: 10px;
+    text-align: center;
+}
